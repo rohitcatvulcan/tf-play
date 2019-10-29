@@ -4,6 +4,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "tf-play" {
-  ami           = "ami-06d51e91cea0dac8d"
+  ami           = "ami-04b762b4289fba92b"
   instance_type = "t2.micro"
 }
